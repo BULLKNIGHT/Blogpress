@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/Blogpress/static/js/main.c8b5a9e7.chunk.js",
+    "main.js.map": "/Blogpress/static/js/main.c8b5a9e7.chunk.js.map",
+    "runtime-main.js": "/Blogpress/static/js/runtime-main.32cdbcce.js",
+    "runtime-main.js.map": "/Blogpress/static/js/runtime-main.32cdbcce.js.map",
+    "static/js/2.9b22ea81.chunk.js": "/Blogpress/static/js/2.9b22ea81.chunk.js",
+    "static/js/2.9b22ea81.chunk.js.map": "/Blogpress/static/js/2.9b22ea81.chunk.js.map",
+    "index.html": "/Blogpress/index.html",
+    "static/js/2.9b22ea81.chunk.js.LICENSE.txt": "/Blogpress/static/js/2.9b22ea81.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.32cdbcce.js",
+    "static/js/2.9b22ea81.chunk.js",
+    "static/js/main.c8b5a9e7.chunk.js"
+  ]
+}
