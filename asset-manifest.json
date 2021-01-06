@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/Blogpress/static/css/main.f73da895.chunk.css",
-    "main.js": "/Blogpress/static/js/main.caca5a5d.chunk.js",
-    "main.js.map": "/Blogpress/static/js/main.caca5a5d.chunk.js.map",
+    "main.css": "/Blogpress/static/css/main.daf720e7.chunk.css",
+    "main.js": "/Blogpress/static/js/main.723a30bb.chunk.js",
+    "main.js.map": "/Blogpress/static/js/main.723a30bb.chunk.js.map",
     "runtime-main.js": "/Blogpress/static/js/runtime-main.32cdbcce.js",
     "runtime-main.js.map": "/Blogpress/static/js/runtime-main.32cdbcce.js.map",
-    "static/js/2.e1d15753.chunk.js": "/Blogpress/static/js/2.e1d15753.chunk.js",
-    "static/js/2.e1d15753.chunk.js.map": "/Blogpress/static/js/2.e1d15753.chunk.js.map",
+    "static/js/2.03ad8a58.chunk.js": "/Blogpress/static/js/2.03ad8a58.chunk.js",
+    "static/js/2.03ad8a58.chunk.js.map": "/Blogpress/static/js/2.03ad8a58.chunk.js.map",
     "index.html": "/Blogpress/index.html",
-    "static/css/main.f73da895.chunk.css.map": "/Blogpress/static/css/main.f73da895.chunk.css.map",
-    "static/js/2.e1d15753.chunk.js.LICENSE.txt": "/Blogpress/static/js/2.e1d15753.chunk.js.LICENSE.txt",
-    "static/media/banner.ba8c0b00.png": "/Blogpress/static/media/banner.ba8c0b00.png"
+    "static/css/main.daf720e7.chunk.css.map": "/Blogpress/static/css/main.daf720e7.chunk.css.map",
+    "static/js/2.03ad8a58.chunk.js.LICENSE.txt": "/Blogpress/static/js/2.03ad8a58.chunk.js.LICENSE.txt",
+    "static/media/banner2.9d03bf94.png": "/Blogpress/static/media/banner2.9d03bf94.png",
+    "static/media/App.css": "/Blogpress/static/media/bg.71f225f5.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.32cdbcce.js",
-    "static/js/2.e1d15753.chunk.js",
-    "static/css/main.f73da895.chunk.css",
-    "static/js/main.caca5a5d.chunk.js"
+    "static/js/2.03ad8a58.chunk.js",
+    "static/css/main.daf720e7.chunk.css",
+    "static/js/main.723a30bb.chunk.js"
   ]
 }
