@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Blogpress/static/css/main.41f32d87.chunk.css",
+    "main.css": "/Blogpress/static/css/main.df29a9cc.chunk.css",
     "main.js": "/Blogpress/static/js/main.547b21f9.chunk.js",
     "main.js.map": "/Blogpress/static/js/main.547b21f9.chunk.js.map",
     "runtime-main.js": "/Blogpress/static/js/runtime-main.32cdbcce.js",
@@ -8,14 +8,14 @@
     "static/js/2.03ad8a58.chunk.js": "/Blogpress/static/js/2.03ad8a58.chunk.js",
     "static/js/2.03ad8a58.chunk.js.map": "/Blogpress/static/js/2.03ad8a58.chunk.js.map",
     "index.html": "/Blogpress/index.html",
-    "static/css/main.41f32d87.chunk.css.map": "/Blogpress/static/css/main.41f32d87.chunk.css.map",
+    "static/css/main.df29a9cc.chunk.css.map": "/Blogpress/static/css/main.df29a9cc.chunk.css.map",
     "static/js/2.03ad8a58.chunk.js.LICENSE.txt": "/Blogpress/static/js/2.03ad8a58.chunk.js.LICENSE.txt",
     "static/media/banner2.9d03bf94.png": "/Blogpress/static/media/banner2.9d03bf94.png"
   },
   "entrypoints": [
     "static/js/runtime-main.32cdbcce.js",
     "static/js/2.03ad8a58.chunk.js",
-    "static/css/main.41f32d87.chunk.css",
+    "static/css/main.df29a9cc.chunk.css",
     "static/js/main.547b21f9.chunk.js"
   ]
 }
