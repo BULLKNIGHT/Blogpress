@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const rateSchema = new mongoose.Schema(
   {
-    likeOrDislike: { type: Boolean },
+    like: { type: Boolean },
     comment: { type: String },
     userId: { type: mongoose.Schema.Types.ObjectId, required: true },
     blogId: { type: mongoose.Schema.Types.ObjectId, required: true },
@@ -10,4 +10,4 @@ const rateSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-module.exports = mongoose.model('rate', rateSchema);
+module.exports = mongoose.model("rate", rateSchema);
