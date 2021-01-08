@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 const useForm = (callback) => {
   const [values, setValues] = useState({
-    username: "",
+    userName: "",
     email: "",
     password: "",
     password2: "",
@@ -10,16 +10,14 @@ const useForm = (callback) => {
   const [errors, setErrors] = useState({});
   const [isSubmitting, setIsSubmitting] = useState(false);
 
+  const isNullOrUndefined = (val) => val === null || val === undefined;
+
   const validateInfo = (val) => {
     let err = {};
 
-    if (!val.username.trim()) {
-      err.username = "Username is required";
+    if (!val.userName.trim()) {
+      err.userName = "Username is required";
     }
-    // else if (!/^[A-Za-z]+/.test(values.name.trim())) {
-    //   errors.name = 'Enter a valid name';
-    // }
-
     if (!val.email) {
       err.email = "Email is required";
     } else if (!/\S+@\S+\.\S+/.test(val.email)) {
@@ -36,6 +34,7 @@ const useForm = (callback) => {
     } else if (val.password2 !== val.password) {
       err.password2 = "Passwords do not match";
     }
+    console.log(values, err);
     return err;
   };
 
@@ -51,14 +50,16 @@ const useForm = (callback) => {
     evt.preventDefault();
 
     setErrors(validateInfo(values));
+
     setIsSubmitting(true);
   };
 
   useEffect(() => {
+    console.log("useEffect ", errors);
     if (Object.keys(errors).length === 0 && isSubmitting) {
-      callback();
+      callback(values);
     }
-  });
+  }, [errors]);
 
   return { handleChange, handleSubmit, values, errors };
 };

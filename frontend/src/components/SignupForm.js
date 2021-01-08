@@ -19,19 +19,19 @@ const SignupForm = (props) => {
       <form className="form" onSubmit={handleSubmit}>
         <h1>Sign up</h1>
         <div className="form-inputs">
-          <label htmlFor="username" className="form-label">
+          <label htmlFor="userName" className="form-label">
             Username
           </label>
           <input
-            id="username"
+            id="userName"
             type="text"
-            name="username"
+            name="userName"
             className="form-input"
             placeholder="Enter username"
-            value={values.username}
+            value={values.userName}
             onChange={handleChange}
           />
-          {errors.username && <p>{errors.username}</p>}
+          {errors.userName && <p>{errors.userName}</p>}
         </div>
         <div className="form-inputs">
           <label htmlFor="email" className="form-label">
@@ -77,6 +77,7 @@ const SignupForm = (props) => {
             onChange={handleChange}
           />
           {errors.password2 && <p>{errors.password2}</p>}
+          {props.err && <p>{props.err}</p>}
         </div>
         <button className="form-input-btn" type="submit">
           Sign up
