@@ -10,7 +10,7 @@ const useForm = (callback) => {
   const [errors, setErrors] = useState({});
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const isNullOrUndefined = (val) => val === null || val === undefined;
+  // const isNullOrUndefined = (val) => val === null || val === undefined;
 
   const validateInfo = (val) => {
     let err = {};

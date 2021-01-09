@@ -1,7 +1,7 @@
 import React from "react";
 
-const Home = ()=> {
-    return<h1>Welcome Home</h1>;
+const Home = (props)=> {
+    return<h1>Welcome {props.user.userName}</h1>;
 }
 
 export default Home;

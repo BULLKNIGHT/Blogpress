@@ -8,7 +8,7 @@ function App() {
   const [user, setUser] = useState({});
 
   const userLogin = (userObj) => {
-    setUser({ userObj });
+    setUser(userObj);
     setIsLogin(true);
   };
   return (
