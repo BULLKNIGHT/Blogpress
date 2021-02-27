@@ -1,0 +1,6 @@
+.TextEditor {
+    width: auto;
+    height: 450px;
+    overflow: auto;
+    margin-bottom: 10px;
+}

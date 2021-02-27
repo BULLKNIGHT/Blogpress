@@ -1,15 +1,9 @@
-import React, { useState } from "react";
-import { Editor } from "react-draft-wysiwyg";
-import { EditorState } from "draft-js";
-import "react-draft-wysiwyg/dist/react-draft-wysiwyg.css";
+import React from "react";
+import TextEditor from "./TextEditor";
 
 const AddBlog = () => {
-  const [editorState, setEditorState] = useState(EditorState.createEmpty());
-  const onEditorStateChange = (editorState) => {
-    setEditorState(editorState);
-  };
   return (
-    <>
+    <div className="container">
       <div className="row g-2">
         <div className="col-md">
           <div className="form-floating">
@@ -19,7 +13,7 @@ const AddBlog = () => {
               id="floatingInputGrid"
               placeholder="Title"
             />
-            <label for="floatingInputGrid">Title</label>
+            <label htmlFor="floatingInputGrid">Title</label>
           </div>
         </div>
         <div className="col-md">
@@ -35,18 +29,13 @@ const AddBlog = () => {
               <option value="3">Food</option>
               <option value="4">Tech</option>
             </select>
-            <label for="floatingSelectGrid">Category</label>
+            <label htmlFor="floatingSelectGrid">Category</label>
           </div>
         </div>
+
+        <TextEditor />
       </div>
-      <Editor
-        editorState={editorState}
-        toolbarClassName="toolbarClassName"
-        wrapperClassName="wrapperClassName"
-        editorClassName="editorClassName"
-        onEditorStateChange={onEditorStateChange}
-      />
-    </>
+    </div>
   );
 };
 
